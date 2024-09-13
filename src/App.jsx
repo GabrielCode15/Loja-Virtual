@@ -1,17 +1,28 @@
-import { useState } from 'react'
+// src/App.jsx
+import React, { useState } from 'react';
+import ProductsList from './components/ProductsList.jsx';
+import Cart from './components/Cart.jsx';
 
-import './App.css'
+const App = () => {
+  const [cart, setCart] = useState([]);
 
-function App() {
+  const addToCart = (product) => {
+    setCart([...cart, product]);
+  };
+
+  const removeFromCart = (index) => {
+    setCart(cart.filter((_, i) => i !== index));
+  };
 
   return (
-    <>
-      <div>
-      <h1>Mini-Loja</h1>
+    <div className="app-container">
+      <h1>Mini Loja Virtual</h1>
+      <div className="main-content">
+        <ProductsList addToCart={addToCart} />
+        <Cart cart={cart} removeFromCart={removeFromCart} />
       </div>
-    
-    </>
-  )
-}
+    </div>
+  );
+};
 
-export default App
+export default App;

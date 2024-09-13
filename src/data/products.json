@@ -1,0 +1,21 @@
+
+[
+  {
+    "id": 1,
+    "name": "Tenis",
+    "price": 50.00,
+    "description": "nikes"
+  },
+  {
+    "id": 2,
+    "name": "Camisas",
+    "price": 30.00,
+    "description": "lacoste"
+  },
+  {
+    "id": 3,
+    "name": "Chapeus",
+    "price": 20.00,
+    "description": "a cowboy"
+  }
+]
