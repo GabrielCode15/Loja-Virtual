@@ -1,21 +1,92 @@
-
 [
   {
     "id": 1,
     "name": "Tenis",
     "price": 50.00,
-    "description": "nikes"
+    "description": "Nikes"
   },
   {
     "id": 2,
     "name": "Camisas",
     "price": 30.00,
-    "description": "lacoste"
+    "description": "Lacoste"
   },
   {
     "id": 3,
     "name": "Chapeus",
     "price": 20.00,
-    "description": "a cowboy"
+    "description": "A Cowboy"
+  },
+  {
+    "id": 4,
+    "name": "Relógio",
+    "price": 120.00,
+    "description": "Relógio digital esportivo"
+  },
+  {
+    "id": 5,
+    "name": "Jaqueta",
+    "price": 150.00,
+    "description": "Jaqueta de couro"
+  },
+  {
+    "id": 6,
+    "name": "Óculos de Sol",
+    "price": 75.00,
+    "description": "Ray-Ban clássico"
+  },
+  {
+    "id": 7,
+    "name": "Mochila",
+    "price": 60.00,
+    "description": "Mochila escolar impermeável"
+  },
+  {
+    "id": 8,
+    "name": "Fones de Ouvido",
+    "price": 80.00,
+    "description": "Fones de ouvido sem fio"
+  },
+  {
+    "id": 9,
+    "name": "Carteira",
+    "price": 25.00,
+    "description": "Carteira de couro legítimo"
+  },
+  {
+    "id": 10,
+    "name": "Meias",
+    "price": 10.00,
+    "description": "Meias confortáveis de algodão"
+  },
+  {
+    "id": 11,
+    "name": "Cinto",
+    "price": 35.00,
+    "description": "Cinto de couro marrom"
+  },
+  {
+    "id": 12,
+    "name": "Boné",
+    "price": 15.00,
+    "description": "Boné esportivo Adidas"
+  },
+  {
+    "id": 13,
+    "name": "Jaqueta Jeans",
+    "price": 85.00,
+    "description": "Jaqueta jeans estilosa"
+  },
+  {
+    "id": 14,
+    "name": "Calça Jeans",
+    "price": 60.00,
+    "description": "Calça jeans slim fit"
+  },
+  {
+    "id": 15,
+    "name": "Tênis de Corrida",
+    "price": 100.00,
+    "description": "Tênis de corrida leve e confortável"
   }
 ]

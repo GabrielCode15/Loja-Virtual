@@ -1,58 +1,152 @@
-/* src/index.css */
-
 /* Estilos gerais da aplicação */
 .app-container {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   text-align: center;
   padding: 20px;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  color: #004182;
+  font-size: 36px;
+  margin-bottom: 30px;
 }
 
 .main-content {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 
-/* Estilos da lista de produtos */
-.products-container {
-  width: 45%;
+/* Cabeçalho para títulos */
+h2 {
+  font-size: 28px;
+  color: #fdb813;
+  margin-bottom: 20px;
 }
 
-ul {
+/* Estilos da lista de produtos com carrossel */
+.products-carousel {
+  width: 60%;
+  position: relative;
+  margin: auto;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  padding: 20px 0;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel {
+  display: flex;
   list-style: none;
   padding: 0;
+  margin: 0;
+  transition: transform 0.5s ease-in-out;
 }
 
 .product-item {
   border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .add-button {
-  background-color: #4CAF50;
+  background-color: #007bff;
   color: white;
   border: none;
   padding: 10px 15px;
   cursor: pointer;
   border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
 }
 
 .add-button:hover {
-  background-color: #45a049;
+  background-color: #0056b3;
+}
+
+/* Botões de navegação do carrossel */
+.carousel-btn {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.left-btn {
+  left: 10px;
+}
+
+.right-btn {
+  right: 10px;
+}
+
+.carousel-btn:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Indicadores de páginas (pontos) */
+.carousel-indicators {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.carousel-indicators .dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.carousel-indicators .dot.active {
+  background-color: #004182;
 }
 
 /* Estilos do carrinho */
 .cart-container {
-  width: 45%;
+  width: 35%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .cart-item {
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 15px;
   margin-bottom: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .remove-button {
@@ -66,4 +160,25 @@ ul {
 
 .remove-button:hover {
   background-color: #e53935;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .products-carousel {
+    width: 90%;
+  }
+
+  .cart-container {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .product-item {
+    width: 180px;
+  }
 }
