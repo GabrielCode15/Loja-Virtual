@@ -38,43 +38,76 @@ const App = () => {
 
       <div className='grid-Content'>
         <div className="grid-product">
-            <img src="" alt="imagem_produto" className='img-product' />
+            <div className="img-content"><img src="" alt="imagem_produto" className='img-product' /></div>
             <p className='preco'>19,99</p>
             <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorem, ipsam veritatis assumenda harum repellendus provident consequatur odio, libero, temporibus rem.</p>
             <button className='add-product'>Adicionar ao Carrinho</button>
         </div>
         <div className="grid-product">
-          <h2>Produtos</h2>
+            <div className="img-content"><img src="" alt="imagem_produto" className='img-product' /></div>
+            <p className='preco'>19,99</p>
+            <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorem, ipsam veritatis assumenda harum repellendus provident consequatur odio, libero, temporibus rem.</p>
+            <button className='add-product'>Adicionar ao Carrinho</button>
         </div>
         <div className="grid-product">
-          <h2>Produtos</h2>
+            <div className="img-content"><img src="" alt="imagem_produto" className='img-product' /></div>
+            <p className='preco'>19,99</p>
+            <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorem, ipsam veritatis assumenda harum repellendus provident consequatur odio, libero, temporibus rem.</p>
+            <button className='add-product'>Adicionar ao Carrinho</button>
         </div>
         <div className="grid-product">
-          <h2>Produtos</h2>
+            <div className="img-content"><img src="" alt="imagem_produto" className='img-product' /></div>
+            <p className='preco'>19,99</p>
+            <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorem, ipsam veritatis assumenda harum repellendus provident consequatur odio, libero, temporibus rem.</p>
+            <button className='add-product'>Adicionar ao Carrinho</button>
         </div>
         <div className="grid-product">
-          <h2>Produtos</h2>
+            <div className="img-content"><img src="" alt="imagem_produto" className='img-product' /></div>
+            <p className='preco'>19,99</p>
+            <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorem, ipsam veritatis assumenda harum repellendus provident consequatur odio, libero, temporibus rem.</p>
+            <button className='add-product'>Adicionar ao Carrinho</button>
         </div>
         <div className="grid-product">
-          <h2>Produtos</h2>
+            <div className="img-content"><img src="" alt="imagem_produto" className='img-product' /></div>
+            <p className='preco'>19,99</p>
+            <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorem, ipsam veritatis assumenda harum repellendus provident consequatur odio, libero, temporibus rem.</p>
+            <button className='add-product'>Adicionar ao Carrinho</button>
         </div>
         <div className="grid-product">
-          <h2>Produtos</h2>
+            <div className="img-content"><img src="" alt="imagem_produto" className='img-product' /></div>
+            <p className='preco'>19,99</p>
+            <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorem, ipsam veritatis assumenda harum repellendus provident consequatur odio, libero, temporibus rem.</p>
+            <button className='add-product'>Adicionar ao Carrinho</button>
         </div>
         <div className="grid-product">
-          <h2>Produtos</h2>
+            <div className="img-content"><img src="" alt="imagem_produto" className='img-product' /></div>
+            <p className='preco'>19,99</p>
+            <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorem, ipsam veritatis assumenda harum repellendus provident consequatur odio, libero, temporibus rem.</p>
+            <button className='add-product'>Adicionar ao Carrinho</button>
         </div>
         <div className="grid-product">
-          <h2>Produtos</h2>
+            <div className="img-content"><img src="" alt="imagem_produto" className='img-product' /></div>
+            <p className='preco'>19,99</p>
+            <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorem, ipsam veritatis assumenda harum repellendus provident consequatur odio, libero, temporibus rem.</p>
+            <button className='add-product'>Adicionar ao Carrinho</button>
         </div>
         <div className="grid-product">
-          <h2>Produtos</h2>
+            <div className="img-content"><img src="" alt="imagem_produto" className='img-product' /></div>
+            <p className='preco'>19,99</p>
+            <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorem, ipsam veritatis assumenda harum repellendus provident consequatur odio, libero, temporibus rem.</p>
+            <button className='add-product'>Adicionar ao Carrinho</button>
         </div>
         <div className="grid-product">
-          <h2>Produtos</h2>
+            <div className="img-content"><img src="" alt="imagem_produto" className='img-product' /></div>
+            <p className='preco'>19,99</p>
+            <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorem, ipsam veritatis assumenda harum repellendus provident consequatur odio, libero, temporibus rem.</p>
+            <button className='add-product'>Adicionar ao Carrinho</button>
         </div>
         <div className="grid-product">
-          <h2>Produtos</h2>
+            <div className="img-content"><img src="" alt="imagem_produto" className='img-product' /></div>
+            <p className='preco'>19,99</p>
+            <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorem, ipsam veritatis assumenda harum repellendus provident consequatur odio, libero, temporibus rem.</p>
+            <button className='add-product'>Adicionar ao Carrinho</button>
         </div>
 
       </div>
