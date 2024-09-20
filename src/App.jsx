@@ -32,8 +32,8 @@ const App = () => {
       <h1>Bem-vindo à Mini Loja Virtual!</h1>
 
       <div className="main-content">
-        <ProductsList addToCart={addToCart} />
-        <Cart cart={cart} removeFromCart={removeFromCart} />
+        <ProductsList addToCart={addToCart} /> 
+        {/* <Cart cart={cart} removeFromCart={removeFromCart} /> */}
       </div>
 
       <div className='grid-Content'>
