@@ -1,46 +1,53 @@
-// src/components/ProductsList.jsx
-import React, { useEffect, useState, useRef } from 'react';
-import productsData from '../data/products.json';
+import React, { useRef, useState } from 'react';
 import '../index.css'; 
 
-const ProductsList = ({ addToCart }) => {
-  const [products, setProducts] = useState([]);
-  const carouselRef = useRef(null);
-
-  useEffect(() => {
-    setProducts(productsData);
-  }, []);
+const ProductsList = ({ products, addToCart }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const itemsPerScroll = 3;
 
   const scrollLeft = () => {
-    carouselRef.current.scrollBy({ left: -200, behavior: 'smooth' });
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - itemsPerScroll);
+    }
   };
 
   const scrollRight = () => {
-    carouselRef.current.scrollBy({ left: 200, behavior: 'smooth' });
+    if (currentIndex + itemsPerScroll < products.length) {
+      setCurrentIndex(currentIndex + itemsPerScroll);
+    }
   };
+
+  const visibleProducts = products.slice(currentIndex, currentIndex + itemsPerScroll);
 
   return (
     <div className="products-carousel">
-      <h2 style={{textAlign:"left"}}>Produtos em destaque</h2>
-      <button className="carousel-btn left-btn" onClick={scrollLeft}>‹</button>
-      <div className="carousel-container" ref={carouselRef}>
-        <ul className="carousel">
-          {products.map(product => (
-            <li key={product.id} className="product-item">
-              <h3>{product.name}</h3>
-              <p>{product.description}</p>
-              <p>Preço: {product.price.toFixed(2)} Euros</p>
-              <button onClick={() => addToCart(product)} className="add-button">
-                Adicionar ao Carrinho
-              </button>
-            </li>
-          ))}
-        </ul>
+      <h2>Lista de Produtos</h2>
+      <div className="carousel-wrapper">
+        <button className="carousel-btn left-btn" onClick={scrollLeft} disabled={currentIndex === 0}>‹</button>
+        <div className="carousel-container">
+          <ul className="carousel">
+            {visibleProducts.map(product => (
+              <li key={product.id} className="product-item">
+                <img src={product.image} alt={product.name} className="img-product-carousel" />
+                <h3>{product.name}</h3>
+                <p>{product.description}</p>
+                <p>Preço: €{product.price.toFixed(2)}</p>
+                <p className='stock-carousel'>Estoque: {product.stock > 0 ? product.stock : 'Indisponível'}</p>
+                <button 
+                  onClick={() => addToCart(product.id)} 
+                  className="add-button"
+                  disabled={product.stock === 0}
+                >
+                  {product.stock > 0 ? 'Adicionar ao Carrinho' : 'Indisponível'}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <button className="carousel-btn right-btn" onClick={scrollRight} disabled={currentIndex + itemsPerScroll >= products.length}>›</button>
       </div>
-      <button className="carousel-btn right-btn" onClick={scrollRight}>›</button>
     </div>
   );
 };
 
 export default ProductsList;
-

@@ -3,84 +3,112 @@
     "id": 1,
     "name": "Tênis",
     "price": 50.00,
-    "description": "Nikes"
+    "description": "Sapatilhas desportivas tipo ténis com pormenor de calcanhar em estampado animal. Fecho com cordões. ",
+    "image": "https://images.nexusapp.co/assets/81/55/9b/181239074.jpg",
+    "stock": 5
   },
   {
     "id": 2,
     "name": "Camisas",
     "price": 30.00,
-    "description": "Lacoste"
+    "description": "Camisa relaxed fit confecionada em tecido com mistura viscose e superleve, moda 2024.",
+    "image": "https://images.nexusapp.co/assets/4f/79/10/303310466.jpg",
+    "stock": 5
   },
   {
     "id": 3,
     "name": "Chapéus",
     "price": 20.00,
-    "description": "A Cowboy"
+    "description": "Chapéu bucket entrançado com acabamento em contraste. Pormenor de aba maleável.",
+    "image": "https://images.nexusapp.co/assets/f2/08/c0/246753036.jpg",
+    "stock": 5
   },
   {
     "id": 4,
     "name": "Relógio",
     "price": 120.00,
-    "description": "Relógio digital esportivo"
+    "description": "Relógio Geneva , com argola de platina",
+    "image": "https://images.nexusapp.co/assets/f5/10/70/158194895.jpg",
+    "stock": 5
   },
   {
     "id": 5,
     "name": "Jaqueta",
     "price": 150.00,
-    "description": "Jaqueta de couro"
+    "description": "Jaqueta Jean estilosa , ultima moda 2023. ",
+    "image": "https://images.nexusapp.co/assets/f0/9c/d2/151851954.jpg",
+    "stock": 5
   },
   {
     "id": 6,
     "name": "Óculos de Sol",
     "price": 75.00,
-    "description": "Ray-Ban clássico"
+    "description": "Óculos de sol com armação metálica redonda. Lentes polarizadas. Inclui bolsa.",
+    "image": "https://images.nexusapp.co/assets/5a/da/6f/302437074.jpg",
+    "stock": 5
   },
   {
     "id": 7,
     "name": "Mochila",
     "price": 60.00,
-    "description": "Mochila escolar impermeável"
+    "description": "Mochila Papopana , da Marca Zupo .",
+    "image": "https://images.nexusapp.co/assets/b2/ec/6b/248407270.jpg",
+    "stock": 5
   },
   {
     "id": 8,
     "name": "Fones de Ouvido",
     "price": 80.00,
-    "description": "Fones de ouvido sem fio"
+    "description": "Fones de ouvido sem fio, orelhas de gato,cor preta",
+    "image": "https://images.nexusapp.co/assets/5c/dc/b7/321463457.jpg",
+    "stock": 5
   },
   {
     "id": 9,
     "name": "Carteira",
     "price": 25.00,
-    "description": "Carteira de couro legítimo"
+    "description": "Carteira Xpto em cabedal , marca Magalhaes",
+    "image": "https://images.nexusapp.co/assets/23/04/b1/416152823.jpg",
+    "stock": 5
   },
   {
     "id": 10,
     "name": "Meias",
     "price": 10.00,
-    "description": "Meias confortáveis de algodão"
+    "description": "Meias confortáveis e termicas com estrelinhas",
+    "image": "https://images.nexusapp.co/assets/41/47/f2/56870335.jpg",
+    "stock": 5
   },
   {
     "id": 11,
     "name": "Cinto",
     "price": 35.00,
-    "description": "Cinto de couro marrom"
+    "description": "Cinto de couro marrom, disponivel em outras cores , Marca Jason",
+    "image": "https://images.nexusapp.co/assets/b9/ba/96/432691505.jpg",
+    "stock": 5
   },
   {
     "id": 12,
     "name": "Boné",
     "price": 15.00,
-    "description": "Boné esportivo Adidas"
+    "description": "Boné Black eye Peas",
+    "image": "https://images.nexusapp.co/assets/1b/6d/89/319967963.jpg",
+    "stock": 5
   },
   {
     "id": 13,
-    "name": "Jaqueta Jeans",
+    "name": "Boxers",
     "price": 85.00,
-    "description": "Jaqueta jeans estilosa"
+    "description": "Boxers para jovens, fabricado pela jsx",
+    "image": "https://images.nexusapp.co/assets/05/b6/5e/302639204.jpg",
+    "stock": 5
   },
   {
     "id": 14,
-    "name": "Calça Jeans",
+    "name": "Soutiens",
     "price": 60.00,
-    "description": "Calça jeans slim fit"
+    "description": "Soutiens para senhoras varios tamanhos disponiveis",
+    "image": "https://images.nexusapp.co/assets/04/71/ab/302970945.jpg",
+    "stock": 5
   }
 ]
