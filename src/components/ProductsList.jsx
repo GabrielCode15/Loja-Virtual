@@ -21,7 +21,7 @@ const ProductsList = ({ addToCart }) => {
 
   return (
     <div className="products-carousel">
-      <h2>Lista de Produtos</h2>
+      <h2 style={{textAlign:"left"}}>Produtos em destaque</h2>
       <button className="carousel-btn left-btn" onClick={scrollLeft}>‹</button>
       <div className="carousel-container" ref={carouselRef}>
         <ul className="carousel">
